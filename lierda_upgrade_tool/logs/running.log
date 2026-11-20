@@ -1,0 +1,45 @@
+[2026-11-20 22:33:22.637] [INFO] Key event enqueued: 1, queue length: 1
+[2026-11-20 22:33:22.653] [INFO] Handle KEY0 event: Query SIM signal
+[INFO] Signal query successful: CSQ=21 RSRP=43(98) SNR=21
+[INFO] SIM query success: CSQ=21 RSRP=-98 SNR=21
+[LCD] Display SIM info: CSQ=21 RSRP=-98 SNR=21
+[2026-11-20 22:33:26.180] [INFO] Key event enqueued: 2, queue length: 1
+[2026-11-20 22:33:26.248] [INFO] Handle KEY1 event: Start audio recording
+[STATE] State transition: 1 -> 3
+[2026-11-20 22:33:26.267] [INFO] Audio task created successfully
+[INFO] Audio record task started
+[INFO] Initializing audio module...
+[2026-11-20 22:33:26.289] [INFO] Audio module init successful (sample rate: 16000Hz, buffer: 128KB)
+[INFO] Start recording (3 seconds)...
+[2026-11-20 22:33:28.614] [INFO] Key event enqueued: 2, queue length: 1
+[2026-11-20 22:33:28.648] [WARN] System busy (state=3), ignoring key event
+[2026-11-20 22:33:29.457] [INFO] Key event enqueued: 3, queue length: 1
+[2026-11-20 22:33:29.547] [WARN] System busy (state=3), ignoring key event
+[2026-11-20 22:33:30.464] [INFO] Recording completed, length: 131072 bytes
+[STATE] State transition: 3 -> 4
+[INFO] Start playing (3 seconds)...
+[2026-11-20 22:33:30.742] [INFO] Key event enqueued: 1, queue length: 1
+[2026-11-20 22:33:30.756] [WARN] System busy (state=4), ignoring key event
+[2026-11-20 22:33:34.567] [INFO] Playback completed
+[2026-11-20 22:33:34.664] [INFO] Deinitializing audio module...
+[2026-11-20 22:33:34.706] [INFO] Audio module deinitialized
+[STATE] State transition: 4 -> 1
+[INFO] Audio task completed, exiting
+[2026-11-20 22:33:37.560] [INFO] Key event enqueued: 2, queue length: 1
+[2026-11-20 22:33:37.648] [INFO] Handle KEY1 event: Start audio recording
+[STATE] State transition: 1 -> 3
+[2026-11-20 22:33:37.649] [INFO] Audio task created successfully
+[2026-11-20 22:33:37.660] [INFO] Audio record task started
+[INFO] Initializing audio module...
+[2026-11-20 22:33:37.672] [INFO] Audio module init successful (sample rate: 16000Hz, buffer: 128KB)
+[INFO] Start recording (3 seconds)...
+[2026-11-20 22:33:40.935] [INFO] Key event enqueued: 2, queue length: 1
+[2026-11-20 22:33:40.951] [WARN] System busy (state=3), ignoring key event
+[2026-11-20 22:33:41.862] [INFO] Recording completed, length: 131072 bytes
+[STATE] State transition: 3 -> 4
+[INFO] Start playing (3 seconds)...
+[2026-11-20 22:33:45.967] [INFO] Playback completed
+[2026-11-20 22:33:46.064] [INFO] Deinitializing audio module...
+[2026-11-20 22:33:46.082] [INFO] Audio module deinitialized
+[STATE] State transition: 4 -> 1
+[INFO] Audio task completed, exiting
