@@ -1,0 +1,2 @@
+# MCP 配置文件包含 API Key，禁止提交到仓库
+.vscode/mcp.json
