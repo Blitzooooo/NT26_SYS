@@ -1,0 +1,16 @@
+@#cli_script_comment->script gen time: 2025-04-29-17_09_17@
+@#cli_script_comment->scriptdir product_scripts@
+@#cli_script_comment->allprods_op_src_script:allprods_script_operate_source.txt@
+@#cli_script_comment->target_prod_op_script:target_product_script_operate_tmp.txt@
+@cli_script_start:product_name=EC718P_PRD@
+@#cli_script_comment->@
+@cli_cmd_one:chkpkgimg@
+@cli_cmd_one:chkpkgimg@
+@cli_cmd_one:probe@
+@cli_cmd_one:probe@
+@cli_cmdone_para:--skipconnect 1 --verbose 1@
+@cli_cmd_one:flasherase 0x0 0x1000@
+@cli_cmd_one:flasherase 0x0 0x1000@
+@cli_cmd_one:burnbatch --imglist system cp_system bootloader@
+@cli_cmd_one:burnbatch --imglist system cp_system bootloader@
+@cli_script_end:product_name=EC718P_PRD@

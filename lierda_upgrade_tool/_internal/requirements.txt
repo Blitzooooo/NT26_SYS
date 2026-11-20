@@ -1,0 +1,10 @@
+# PySide6 版本必须与编译 C++ 库所用的 Qt 版本一致（E:\Qt\6.10.1），否则 Qt6Core.dll 符号不匹配导致 pyd 加载失败
+PySide6==6.10.1
+PySide6_Addons==6.10.1
+PySide6_Essentials==6.10.1
+shiboken6==6.10.1
+PyInstaller>=5.13.0
+pyserial>=3.5
+setuptools>=65.0.0
+pybind11>=2.11.0
+requests>=2.31.0

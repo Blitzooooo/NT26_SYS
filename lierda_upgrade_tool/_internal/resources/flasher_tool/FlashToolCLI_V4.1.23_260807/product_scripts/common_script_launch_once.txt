@@ -1,0 +1,8 @@
+@#cli_script_comment->######################## start ############################@
+@cli_script_start:product_name=launch_any@
+@#cli_script_comment->@
+@cli_cmd_one:pkg2img@
+@cli_cmd_one:genscript --callfr_runscript=yes@
+@cli_script_end:product_name=launch_any@
+@#cli_script_comment->$$$$$$$$$$$$$$$$$$$$$$$$$$  end $$$$$$$$$$$$$$$$$$$$$$$$$$@
+

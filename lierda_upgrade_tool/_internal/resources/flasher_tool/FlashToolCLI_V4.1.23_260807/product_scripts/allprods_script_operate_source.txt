@@ -1,0 +1,35 @@
+
+
+@#cli_script_comment->@######################## start ############################@
+@cli_script_start:product_name=EC718PM_PRD@
+@#cli_script_comment->@
+@cli_cmd_one:chkpkgimg@
+@cli_cmd_one:probe@
+@cli_cmdone_para:--skipconnect 1 --verbose 1@
+@cli_cmd_one:flasherase 0x0 0x1000@
+@cli_cmd_one:burnbatch --imglist system cp_system bootloader@
+@cli_script_end:product_name=EC718PM_PRD@
+@#cli_script_comment->$$$$$$$$$$$$$$$$$$$$$$$$$$  end $$$$$$$$$$$$$$$$$$$$$$$$$$@
+
+@#cli_script_comment->@######################## start ############################@
+@cli_script_start:product_name=EC718P_PRD@
+@#cli_script_comment->@
+@cli_cmd_one:chkpkgimg@
+@cli_cmd_one:probe@
+@cli_cmdone_para:--skipconnect 1 --verbose 1@
+@cli_cmd_one:flasherase 0x0 0x1000@
+@cli_cmd_one:burnbatch --imglist system cp_system bootloader@
+@cli_script_end:product_name=EC718P_PRD@
+@#cli_script_comment->$$$$$$$$$$$$$$$$$$$$$$$$$$  end $$$$$$$$$$$$$$$$$$$$$$$$$$@
+
+
+@#cli_script_comment->@######################## start ############################@
+@cli_script_start:product_name=EC718S_PRD@
+@#cli_script_comment->@
+@#cli_script_comment->@cli_cmd_one:pkg2img@
+@cli_cmd_one:probe@
+@cli_cmdone_para:--skipconnect 1 --verbose 1@
+@cli_cmd_one:flasherase 0x0 0x1000@
+@cli_cmd_one:burnbatch --imglist system cp_system bootloader@
+@cli_script_end:product_name=EC718S_PRD@
+@#cli_script_comment->$$$$$$$$$$$$$$$$$$$$$$$$$$  end $$$$$$$$$$$$$$$$$$$$$$$$$$@

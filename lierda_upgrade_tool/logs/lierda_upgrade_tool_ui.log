@@ -1,0 +1,74 @@
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - CURRENT_DIR(打包环境): D:\Project\NT26_SYS\lierda_upgrade_tool
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - 检测到打包后的环境
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - DLL_DIR路径: D:\Project\NT26_SYS\lierda_upgrade_tool\lib
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - PYD_DIR路径: D:\Project\NT26_SYS\lierda_upgrade_tool\lib
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - QT_INTERNAL_DIR路径: D:\Project\NT26_SYS\lierda_upgrade_tool\_internal
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - 已添加Qt内部目录到DLL搜索路径: D:\Project\NT26_SYS\lierda_upgrade_tool\_internal
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - 使用默认项目路径: D:\Project\NT26_SYS\lierda_upgrade_tool\project_manage
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - 创建项目路径目录: D:\Project\NT26_SYS\lierda_upgrade_tool\project_manage
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - 默认项目路径已写入配置文件: D:\Project\NT26_SYS\lierda_upgrade_tool\config\config.json
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - WeKnora sessions file not found, will create on first save
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - 配置文件中没有auth信息，用户未登录
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - 已初始化日志配置选项
+2026-11-20 18:15:13 - lierda_upgrade_tool - INFO - 已刷新可用串口列表
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 已加载 0 个项目
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - broom icon path: D:\Project\NT26_SYS\lierda_upgrade_tool\_internal\resources\扫把.svg, exists=True
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 已刷新可用串口列表
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 开始更新运行日志状态
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 是否启用了日志保存: True
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 是否启用了AP日志: True
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 是否启用了CP日志: False
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 启用了日志保存且启用了AP或CP日志，开始处理running.log
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 使用配置的日志保存路径: D:\Project\NT26_SYS\lierda_upgrade_tool\logs
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 最终日志保存路径: D:\Project\NT26_SYS\lierda_upgrade_tool\logs
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 日志目录已存在: D:\Project\NT26_SYS\lierda_upgrade_tool\logs
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 模组运行日志文件路径: D:\Project\NT26_SYS\lierda_upgrade_tool\logs\running.log
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 模组运行日志文件是否存在: False
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 开始检查日志文件大小并执行轮转操作
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 是否执行了日志轮转操作: False
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 没有执行日志轮转操作，检查日志文件是否未打开
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 日志文件是否未打开: True
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 日志文件未打开，开始打开它: D:\Project\NT26_SYS\lierda_upgrade_tool\logs\running.log
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 已打开模组运行日志文件: D:\Project\NT26_SYS\lierda_upgrade_tool\logs\running.log
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 日志文件是否存在: True
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 日志文件大小: 0 字节
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - USB AT 口未打开
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 已更新模组状态信息
+2026-11-20 18:15:14 - lierda_upgrade_tool - INFO - 用户未登录，无需验证Token
+2026-11-20 18:15:16 - lierda_upgrade_tool - DEBUG - No target devices found
+2026-11-20 18:15:47 - lierda_upgrade_tool - INFO - 发送POST请求到: /sms/send-code
+2026-11-20 18:15:47 - lierda_upgrade_tool - INFO - 请求URL: https://product.wsn.lierda.com/help/api/cli/v1/sms/send-code
+2026-11-20 18:15:47 - lierda_upgrade_tool - INFO - 请求头: {"Content-Type": "application/json"}
+2026-11-20 18:15:47 - lierda_upgrade_tool - INFO - 请求体: {"phone": "13858380904", "type": "register"}
+2026-11-20 18:15:49 - lierda_upgrade_tool - INFO - 响应状态: HTTP 200
+2026-11-20 18:15:49 - lierda_upgrade_tool - INFO - 响应内容: {"code": 0, "data": {"biz_id": "381616895169749664^0"}, "message": "ok"}
+2026-11-20 18:15:49 - lierda_upgrade_tool - INFO - 请求成功: /sms/send-code
+2026-11-20 18:15:50 - lierda_upgrade_tool - INFO - 验证码已发送到: 13858380904
+2026-11-20 18:16:08 - lierda_upgrade_tool - INFO - 发送POST请求到: /user/register
+2026-11-20 18:16:08 - lierda_upgrade_tool - INFO - 请求URL: https://product.wsn.lierda.com/help/api/cli/v1/user/register
+2026-11-20 18:16:08 - lierda_upgrade_tool - INFO - 请求头: {"Content-Type": "application/json"}
+2026-11-20 18:16:08 - lierda_upgrade_tool - INFO - 请求体: {"phone": "13858380904", "sms_code": "445783", "password": "***(长度10)"}
+2026-11-20 18:16:09 - lierda_upgrade_tool - INFO - 响应状态: HTTP 400
+2026-11-20 18:16:09 - lierda_upgrade_tool - INFO - 响应内容: {"code": 9999, "message": "请求参数错误"}
+2026-11-20 18:16:09 - lierda_upgrade_tool - WARNING - 请求失败: /user/register, code=9999, message=系统异常，请稍后重试
+2026-11-20 18:16:11 - lierda_upgrade_tool - WARNING - 用户注册失败: 13858380904, 错误: 系统异常，请稍后重试
+2026-11-20 18:16:23 - lierda_upgrade_tool - INFO - 发送POST请求到: /user/register
+2026-11-20 18:16:23 - lierda_upgrade_tool - INFO - 请求URL: https://product.wsn.lierda.com/help/api/cli/v1/user/register
+2026-11-20 18:16:23 - lierda_upgrade_tool - INFO - 请求头: {"Content-Type": "application/json"}
+2026-11-20 18:16:23 - lierda_upgrade_tool - INFO - 请求体: {"phone": "13858380904", "sms_code": "445783", "password": "***(长度9)"}
+2026-11-20 18:16:25 - lierda_upgrade_tool - INFO - 响应状态: HTTP 200
+2026-11-20 18:16:25 - lierda_upgrade_tool - INFO - 响应内容: {"code": 0, "message": "ok"}
+2026-11-20 18:16:25 - lierda_upgrade_tool - INFO - 请求成功: /user/register
+2026-11-20 18:16:26 - lierda_upgrade_tool - INFO - 用户注册成功: 13858380904
+2026-11-20 18:16:31 - lierda_upgrade_tool - INFO - 发送POST请求到: /user/login
+2026-11-20 18:16:31 - lierda_upgrade_tool - INFO - 请求URL: https://product.wsn.lierda.com/help/api/cli/v1/user/login
+2026-11-20 18:16:31 - lierda_upgrade_tool - INFO - 请求头: {"Content-Type": "application/json"}
+2026-11-20 18:16:31 - lierda_upgrade_tool - INFO - 请求体: {"phone": "13858380904", "password": "***(长度9)"}
+2026-11-20 18:16:32 - lierda_upgrade_tool - INFO - 响应状态: HTTP 200
+2026-11-20 18:16:32 - lierda_upgrade_tool - INFO - 响应内容: {"code": 0, "data": {"phone": "13858380904", "token": "***(长度203)", "user_id": 96}, "message": "ok"}
+2026-11-20 18:16:32 - lierda_upgrade_tool - INFO - 请求成功: /user/login
+2026-11-20 18:16:32 - lierda_upgrade_tool - INFO - Token已保存，用户ID: 96, 手机号: 13858380904
+2026-11-20 18:16:32 - lierda_upgrade_tool - INFO - 用户登录状态变更: 已登录, 手机号: 13858380904
+2026-11-20 18:16:32 - lierda_upgrade_tool - INFO - 用户登录成功: 13858380904
+2026-11-20 19:03:54 - lierda_upgrade_tool - INFO - FirmwareController: 开始销毁资源
+2026-11-20 19:03:54 - lierda_upgrade_tool - INFO - FirmwareController: 资源销毁完成

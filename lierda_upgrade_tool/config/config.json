@@ -1,0 +1,11 @@
+{
+    "project_path": "D:\\Project\\NT26_SYS\\lierda_upgrade_tool\\project_manage",
+    "qa_include_context_default": false,
+    "app_version": "1.0",
+    "auth": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTU3NzQ1OTMsImp0aSI6IjhhMDNkZTA2LWY5MzEtNGIwMS1hZGYwLWFkODVlMGQxZjY4NCIsImlhdCI6MTc5NTE2OTc5Mywic3ViIjoiOTYifQ.QCTnuX7R527WbR3aPcA_4kPoj9A2mdnSS26oAE_2NVc",
+        "user_id": 96,
+        "phone": "13858380904",
+        "login_time": "2026-11-20T18:16:32.978863"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^git config --global core\\.sshCommand \"C:/Windows/System32/OpenSSH/ssh\\.exe\"; Write-Host '已设置，当前值：'; git config --global core\\.sshCommand$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
